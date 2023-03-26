@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My to do list</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="list">
+    <div class="row">
+      <div class="content">
+       <h1 id="todo" class="text_shadows col-m-12"> To Do</h1>
+      </div>
+        <ul>
+        </ul>
+    </div>
+
+    <div class="row" >
+        <input class="col-m-12" type="text" placeholder="add a note" id="task">
+        <br>
+        <label class="col-m-12" id="note">( click on the note to disappear)</label>
+        <br>
+        <input class="col-m-12"  type="radio" name="add" id="addToBeggin" value="beggin" checked>
+        <label class="col-m-12" >priority- add it to begin</label>
+        <br>
+        <input class="col-m-12"  type="radio" name="add" id="addToEnd" value="end">
+        <label class="col-m-12" >add to end</label>
+    </div>
+    <div class="row">
+ <img class="col-m-12 col-t-4 clock" src="clock.png"/>
+</div>
+   
+  </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html
